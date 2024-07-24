@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to Black Jack!</h1>
+    <div class="container">
+        <h1>Let's Play BlackJack</h1>
+        <div id="message"></div>
+        <div class="cardHolder">
+            <div id="playerHand">
+                <p id="player-Card">Player Cards:</p>
+                <p id="player-Total">Player Total:</p>
+            </div>
+            <div id="dealerHand">
+                <p id="dealer-Card"> Dealer Cards:</p>
+                <p id="dealer-Total">Dealer Total:</p>
+            </div>
+
+        </div>
+        <div id="buttons">
+            <button id="playButton" onclick="startGame()">Play Game</button>
+            <button id="hitButton" onclick="hitMe()">Hit</button>
+            <button id="standButton" onclick="stand()">Stand</button>
+            <button id="startButton" onclick="startNewGame()">Start New Game</button>
+        </div>
+        <p id="player-1"></p>
+    </div>
+
+ 
+        
+
+    <script src="app.js"></script>  <!-- Link to JavaScript file -->
+</body>
+</html>
